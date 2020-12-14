@@ -17,11 +17,11 @@ Projeto feito durante o workshop DoWhile da rocketseat. Nesse workshop foi feito
   a condição, assim o react vai ver que o component na primeira posição pode ser nulo, assim ele não vai precisar recalcular tudo denovo e renderizar o componente
   novamente.
   
-  Renderização errada: 
+  Exmeplo de renderização errada: 
   
    <img src="./renderErrado.png" />
   
   
-  Renderização certa:
+  Exemplo de renderização certa:
   
    <img src="./renderCerta.png" />
