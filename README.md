@@ -1,8 +1,10 @@
 # React-Performance
 Projeto feito durante o workshop DoWhile da rocketseat. Nesse workshop foi feito um melhoramento da performance de aplicações no React usando React-window e funções nativas
 
-## O que foi feito
-
+# :mortar_board: O que foi ensinado
+  
+  ## Renderizar apenas components que estão aparecendo na tela
+  
   - Primeiro foi usado a função `FixedSizeList` da blibioteca react-window para realizar a renderização apenas dos components que estão na tela. 
   Isso fez a performance da aplicação melhorar muito
   
