@@ -43,7 +43,7 @@ Projeto feito durante o workshop DoWhile da rocketseat. Nesse workshop foi feito
  
  Exemplo: <img src="./github/Exemplorender.png" />
  
- ## UseCallBack
+ ## Usando useCallBack para memorizar funções
  
  - Foi falado sobre a importancia de colocar o useCallBack em volta das funções que estão dentro de componente do React. Toda vez que um componente é renderizado
  novamente, todas as suas funções são por padrão re-calculadas, e isso querendo ou não faz com que sua aplicação fique mais lenta. Por isso foi criado o useCallBack, que é um jeito de memorizar a função, e com essa função memorizada ela pode ser chamada em qualquer lugar da sua aplicação. O useCallBack é diferente
