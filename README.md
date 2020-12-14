@@ -36,8 +36,8 @@ Projeto feito durante o workshop DoWhile da rocketseat. Nesse workshop foi feito
 ## Fazendo a propria condição de renderização
 
  - É muito importante passar o objeto key para todos os components que são renderizados via props, pois o react faz uma shadow comparation do valor passado no key
- e quando ele ve que o key de um objeto mudou ele renderiza novamente o objeto. Porem tem um problema, o shadow comparation que é feito no React
- se perde quando passamos objetos por props, então nos podemos fazer nossa propria comparação para dizer quando renderizar o componente novamente. Para fazer isso
+ e quando ele ve que o key de um componente mudou ele o renderiza novamente. Porem tem um problema, o shadow compare que é feito por baixo dos panos no React
+ se perde quando passamos objetos como props, então nos podemos fazer nossa propria comparação para dizer quando renderizar o componente novamente. Para fazer isso
  nos precisamos passar a condicional que queremos no segundo argumento do React.memo, que foi citado anteriormente. 
  
  
