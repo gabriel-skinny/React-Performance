@@ -2,18 +2,17 @@ import React from "react"
 import { SortableElement } from 'react-sortable-hoc';
 
 
-export const Post = SortableElement(({ post, imgStyle }) => {
+const areEqual = (prevProps, nextProps) => {
+    return prevProps.post.id === nextProps.post.id
+}
 
-    if (post.albumId === 2) {
-        return (<div>
-            <div>Album 2</div>
-            <img src={post.url} alt={post.title} />
-            <h3>{post.title}</h3>
-        </div>)
-    }
+const VirtualPost = React.memo(({ post, imgStyle }) => {
 
     return (<div>
+        {post.albumId === 2 && <div>Album2</div>}
         <img src={post.url} alt={post.title} style={imgStyle} />
         <h3>{post.title}</h3>
     </div>)
-})
+}, areEqual)
+
+export const Post = SortableElement(VirtualPost);
