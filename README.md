@@ -12,7 +12,7 @@ Projeto feito durante o workshop DoWhile da rocketseat. Nesse workshop foi feito
   
   - Foi falado sobre o problema da renderezição de components normais do react ao se passar props pra ele, pois quando se modifica essas props, mesmo que essas
   props não afetem propriedades visuais da aplicação, o componente é renderizado novamente. Então no video foi mostrado uma solução que é
-  o React.memo, que serve para memorizar o component e so executar denovo esse componente quando as dependencias passadas no segundo parametro da função
+  o React.memo, que serve para memoizar o component e so executar denovo esse componente quando as dependencias passadas no segundo parametro da função
   são alteradas. Exemplo:
   
    <img src="./github/exemplo1.png" />
@@ -46,7 +46,7 @@ Projeto feito durante o workshop DoWhile da rocketseat. Nesse workshop foi feito
  ## Usando useCallBack para memorizar funções
  
  - Foi falado sobre a importancia de colocar o useCallBack em volta das funções que estão dentro de componente do React. Toda vez que um componente é renderizado
- novamente, todas as suas funções são por padrão re-calculadas, e isso querendo ou não faz com que sua aplicação fique mais lenta. Por isso foi criado o useCallBack, que é um jeito de memorizar a função, e com essa função memorizada ela pode ser chamada em qualquer lugar da sua aplicação. O useCallBack é diferente
+ novamente, todas as suas funções são por padrão re-calculadas, e isso querendo ou não faz com que sua aplicação fique mais lenta. Por isso foi criado o useCallBack, que é um jeito de memoizar uma função, e com essa função memoizada ela pode ser chamada em qualquer lugar da sua aplicação. O useCallBack é diferente
  do Memo, pois o memo não retorna uma função, ele retorna o valor ou o componente. O useCallBack como o memo tambem possui as dependencias que podem ser passadas
  no 2 parametro da função, e quando essas forem atualizadas a função é recalculada.
  
