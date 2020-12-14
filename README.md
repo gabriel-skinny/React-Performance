@@ -8,7 +8,8 @@ Projeto feito durante o workshop DoWhile da rocketseat. Nesse workshop foi feito
   
   ## Como renderizar componentes
   
-  - Depois foi falado sobre o problema da renderezição de components normais do react ao se passar props pra ele. No video foi mostrado uma solução que é
+  - Foi falado sobre o problema da renderezição de components normais do react ao se passar props pra ele, pois quando se modifica essas props, mesmo que essas
+  props não afetem propriedades visuais da aplicação, o componente é renderizado novamente. Então no video foi mostrado uma solução que é
   o React.memo, que serve para memorizar o component e so executar denovo esse componente quando as dependencias passadas no segundo parametro da função
   são alteradas. Exemplo:
   
