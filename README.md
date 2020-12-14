@@ -54,3 +54,4 @@ Projeto feito durante o workshop DoWhile da rocketseat. Nesse workshop foi feito
  
  <img src="./github/ExempleCallBack.png" />
  
+ obs: Na documentação do React fala que não se deve usar o useCallBack em todas as funções da aplicação, pois muita memoização pode ser prejudicial para a aplicação, então é recomendado usar em funções muito pesadas e em componentes filhos que são atualizados constantemente.  
