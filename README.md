@@ -19,6 +19,9 @@ Projeto feito durante o workshop DoWhile da rocketseat. Nesse workshop foi feito
   
   Renderização errada: 
   
+   <img src="./renderErrado.png" />
   
   
   Renderização certa:
+  
+   <img src="./renderCerta.png" />
