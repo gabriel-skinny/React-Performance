@@ -33,4 +33,4 @@ Projeto feito durante o workshop DoWhile da rocketseat. Nesse workshop foi feito
  nos precisamos passar a condicional que queremos no segundo argumento do React.memo, que foi citado anteriormente. 
  
  
- Exemplo: 
+ Exemplo: <img src="./Exemplorender.png" />
