@@ -10,7 +10,7 @@ Projeto feito durante o workshop DoWhile da rocketseat. Nesse workshop foi feito
   o React.memo, que serve para memorizar o component e so executar denovo esse componente quando as dependencias passadas no segundo parametro da função
   são alteradas. Exemplo:
   
-    <img src="./exemplo1.png" />
+    <img src=".github/exemplo1.png" />
   
   - Foi falado também sobre o problema de renderização condicional no react, pois quando voce coloca uma condição fora do return normal da função, o algoritimo do React faz uma comparação de arvore do DOM, e quando ele ve que os elementos que da condição estão posicionados diferente dos elementos que estão no return ele faz toda renderização e recalcula toda a arvore denovo, e isso faz com
   que a perfomance da sua aplicação seja muito prejudicada. A solução para isso então foi o render condicion inline, que seria na mesma linha voce colocar
@@ -19,12 +19,12 @@ Projeto feito durante o workshop DoWhile da rocketseat. Nesse workshop foi feito
   
   Exmeplo de renderização errada: 
   
-   <img src="./renderErrado.png" />
+   <img src=".github/renderErrado.png" />
   
   
   Exemplo de renderização certa:
   
-   <img src="./renderCerta.png" />
+   <img src=".github/renderCerta.png" />
 
 
  - É muito importante passar o objeto key para todos os components que são renderizados via props, pois o react faz uma shadow comparation do valor passado no key
@@ -33,12 +33,12 @@ Projeto feito durante o workshop DoWhile da rocketseat. Nesse workshop foi feito
  nos precisamos passar a condicional que queremos no segundo argumento do React.memo, que foi citado anteriormente. 
  
  
- Exemplo: <img src="./Exemplorender.png" />
+ Exemplo: <img src=".github/Exemplorender.png" />
  
  - Foi falado sobre a importancia de colocar o useCallBack em volta das funções que estão dentro de componente do React. Toda vez que um componente é renderizado
  novamente, todas as suas funções são por padrão re-calculadas, e isso querendo ou não faz com que sua aplicação fique mais lenta. Por isso foi criado o useCallBack, que é um jeito de memorizar a função, e com essa função memorizada ela pode ser chamada em qualquer lugar da sua aplicação. O useCallBack é diferente
  do Memo, pois o memo não retorna uma função, ele retorna o valor ou o componente. O useCallBack como o memo tambem possui as dependencias que podem ser passadas
  no 2 parametro da função, e quando essas forem atualizadas a função é recalculada.
  
- Exemplo:
+ Exemplo: <img src=".github/ExemploCallBack.png" />
  
