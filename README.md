@@ -5,7 +5,7 @@ Projeto feito durante o workshop DoWhile da rocketseat. Nesse workshop foi feito
   
   ## Renderizar apenas components que estão aparecendo na tela
   
-  - Primeiro foi usado a função `FixedSizeList` da blibioteca react-window para realizar a renderização apenas dos components que estão na tela. 
+  - Foi utilizado a função `FixedSizeList` da blibioteca react-window para realizar a renderização apenas dos components que estão na tela. 
   Isso fez a performance da aplicação melhorar muito
   
   ## Como renderizar componentes
