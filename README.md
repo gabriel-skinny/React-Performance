@@ -24,12 +24,12 @@ Projeto feito durante o workshop DoWhile da rocketseat. Nesse workshop foi feito
   a condição, assim o react vai ver que o component na primeira posição pode ser nulo, assim ele não vai precisar recalcular tudo denovo e renderizar o componente
   novamente.
   
-  Exmeplo de renderização errada: 
+  <span color="red">Exemplo de renderização errada: </span>
   
    <img src="./github/renderErrado.png" />
   
   
-  Exemplo de renderização certa:
+  <span color="green">Exemplo de renderização certa:</span>
   
    <img src="./github/renderCerta.png" />
 
