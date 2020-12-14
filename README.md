@@ -40,5 +40,7 @@ Projeto feito durante o workshop DoWhile da rocketseat. Nesse workshop foi feito
  do Memo, pois o memo não retorna uma função, ele retorna o valor ou o componente. O useCallBack como o memo tambem possui as dependencias que podem ser passadas
  no 2 parametro da função, e quando essas forem atualizadas a função é recalculada.
  
- Exemplo: <img src="./github/ExempleCallBack.png" />
+ Exemplo: 
+ 
+ <img src="./github/ExempleCallBack.png" />
  
