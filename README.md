@@ -27,7 +27,7 @@ Projeto feito durante o workshop DoWhile da rocketseat. Nesse workshop foi feito
    <img src="./renderCerta.png" />
 
 
- - É muit importante passar o objeto key para todos os components que são renderizados via props, pois o react faz uma shadow comparation do valor passado no key
+ - É muito importante passar o objeto key para todos os components que são renderizados via props, pois o react faz uma shadow comparation do valor passado no key
  e quando ele ve que o key de um objeto é diferente do outro ele renderiza o componente novamente. Porem tem um problema, o shadow comparation que é feito no React
  se perde quando passamos objetos por props, então nos podemos fazer nossa propria comparação para dizer quando renderizar o componente novamente. Para fazer isso
  nos precisamos passar a condicional que queremos no segundo argumento do React.memo, que foi citado anteriormente. 
