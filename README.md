@@ -59,4 +59,4 @@ imagens.
  
  <img src="./github/ExempleCallBack.png" />
  
- obs: Na documentação do React fala que não se deve usar o useCallBack em todas as funções da aplicação, pois muita memoização pode ser prejudicial para a aplicação, então é recomendado usar em funções muito pesadas e em componentes filhos que são atualizados constantemente.  
+ obs: Na documentação do React fala que não se deve usar o useCallBack em todas as funções da aplicação, pois muita memoização pode ser prejudicial para a aplicação. Então é recomendado usar em funções muito pesadas e em componentes filhos que são atualizados constantemente.  
