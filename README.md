@@ -1,7 +1,7 @@
-# React-Performance
+#  :computer: React-Performance
 Projeto feito durante o workshop DoWhile da rocketseat. Nesse workshop foi feito um melhoramento da performance de aplicações no React usando React-window e funções nativas. 
 
-# Projeto feito
+# :bulb: Projeto feito
 
 O Projeto foi um feed que renderiza mais de mil imagens, o objetivo era melhorar a performance da aplicação mesmo renderizando tantas
 imagens.
