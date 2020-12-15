@@ -38,7 +38,7 @@ imagens.
   
    <img src="./github/renderCerta.png" />
 
-## Fazendo a propria condição de renderização
+## Fazendo a propria condição de renderização de componentes funcionais usando o React.Memo
 
  - É muito importante passar o objeto key para todos os components que são renderizados via props, pois o react faz uma shadow comparation do valor passado no key
  e quando ele ve que o key de um componente mudou ele o renderiza novamente. Porem tem um problema, o shadow compare que é feito por baixo dos panos no React
@@ -48,7 +48,7 @@ imagens.
  
  Exemplo: <img src="./github/Exemplorender.png" />
  
- ## Usando useCallBack para memorizar funções
+ ## Usando useCallBack para memoizar funções
  
  - Foi falado sobre a importancia de colocar o useCallBack em volta das funções que estão dentro de componente do React. Toda vez que um componente é renderizado
  novamente, todas as suas funções são por padrão re-calculadas, e isso querendo ou não faz com que sua aplicação fique mais lenta. Por isso foi criado o useCallBack, que é um jeito de memoizar uma função, e com essa função memoizada ela pode ser chamada em qualquer lugar da sua aplicação. O useCallBack é diferente
